@@ -1,0 +1,63 @@
+.form {
+    border: 1px solid gray;
+    width: 600px;
+    height: 250px;
+    margin: 100px auto;
+}
+
+.form form div {
+    margin: 30px auto;
+    width: 475px;
+}
+
+.form form div .file-input {
+    width: 400px;
+    height: 22px;
+}
+
+.form form div .file-input+button {
+    height: 28px;
+    width: 66px;
+}
+
+.form form .User-name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form form .User-name input {
+    width: 200px;
+    height: 22px;
+}
+
+.form form #description input {
+    width: 468px;
+    height: 22px;
+}
+
+.form form #form-footer button{
+    width:100px;
+    height: 32px;
+    border-radius: 3px;
+}
+
+@media (max-width:768px) {
+    .form{
+        width: 100%;
+        height: 300px;
+    }
+    .form form div{
+        margin: 30px auto;
+        width: 100%;
+    }
+    .form form div .file-input{
+        width: 72%;
+    }
+    .form form .User-name input{
+        width: 40%;
+        margin: 30px auto;
+    }
+    .form form #description input{
+        width: 90%;
+    }
+}

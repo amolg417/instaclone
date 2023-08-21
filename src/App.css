@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  width: 100vw;
+}
+
+
+
+@media (max-width:768px) {
+  .App {
+    text-align: center;
+    width: 100vw;
+  }
+}
+
